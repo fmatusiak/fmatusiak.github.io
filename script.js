@@ -1,6 +1,6 @@
 $(document).ready(function() {
 
-  var apiRoot = 'https://mysterious-sea-15899.herokuapp.com/';
+  var apiRoot = 'https://mysterious-sea-15899.herokuapp.com/v1/task/';
   var datatableRowTemplate = $('[data-datatable-row-template]').children()[0];
   var tasksContainer = $('[data-tasks-container]');
 
